@@ -24,7 +24,7 @@ let CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'General',
+      category: 'Games',
       name: 'RLTracker',
       key: 'a',
       url: 'https://rocketleague.tracker.network/distribution/11',
