@@ -14,35 +14,26 @@ let CONFIG = {
       search: '/?q={}'
     },
     {
-      category: 'General',
-      name: 'Mail',
-      key: 'm',
-      url: 'https://gmail.com',
-      search: '/#search/text={}',
-      color: 'linear-gradient(135deg, #dd5145, #dd5145)',
+      category: 'Games',
+      name: 'Amazon Music',
+      key: 'a',
+      url: 'https://music.amazon.com',
+      search: '',
+      color: 'linear-gradient(135deg, #396afc, #2948ff)',
       icon: 'mail',
       quickLaunch: true,
     },
     {
       category: 'General',
-      name: 'Drive',
-      key: 'd',
-      url: 'https://drive.google.com',
-      search: '/drive/search?q={}',
-      color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
+      name: 'RLTracker',
+      key: 'a',
+      url: 'https://rocketleague.tracker.network/distribution/11',
+      search: '',
+      color: 'linear-gradient(135deg, #000000, #000000, #000000)',
       icon: 'drive',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
-      name: 'Zoho Mail',
-      key: 'z',
-      url: 'https://mail.zoho.com/zm/',
-      search: '/search/results/all/?keywords={}',
-      color: 'linear-gradient(135deg, #006CA4, #0077B5)',
-      icon: 'mail',
       quickLaunch: true,
     },
+
     {
       category: 'Tech',
       name: 'GitHub',
@@ -55,26 +46,26 @@ let CONFIG = {
     },
     {
       category: 'Tech',
-      name: 'StackOverflow',
-      key: 's',
-      url: 'https://stackoverflow.com',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #53341C, #F48024)',
+      name: 'Netlify',
+      key: 'l',
+      url: 'https://netlify.com',
+      search: '',
+      color: 'linear-gradient(135deg, #021B79, #0575E6)',
       icon: 'stackoverflow',
       quickLaunch: true,
     },
     {
       category: 'Tech',
-      name: 'HackerNews',
-      key: 'h',
-      url: 'https://news.ycombinator.com/',
-      search: '/search?stories[query]={}',
-      color: 'linear-gradient(135deg, #FF6600, #DC5901)',
-      icon: 'hackernews',
+      name: 'Zoho Mail',
+      key: 'z',
+      url: 'https://mail.zoho.com/zm/',
+      search: '',
+      color: 'linear-gradient(135deg, #006CA4, #0077B5)',
+      icon: 'mail',
       quickLaunch: true,
     },
     {
-      category: 'Fun',
+      category: 'Watch',
       name: 'YouTube',
       key: 'y',
       url: 'https://youtube.com',
@@ -84,7 +75,7 @@ let CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Watch',
       name: 'Netflix',
       key: 'n',
       url: 'https://www.netflix.com',
@@ -93,7 +84,7 @@ let CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Fun',
+      category: 'Watch',
       name: 'Twitch',
       key: 't',
       url: 'https://www.twitch.tv',
@@ -103,7 +94,7 @@ let CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Other',
+      category: 'Reddit',
       name: 'Reddit',
       key: 'r',
       url: 'https://old.reddit.com',
@@ -113,7 +104,7 @@ let CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Other',
+      category: 'Reddit',
       name: 'r/UnixP',
       key: 'u',
       url: 'https://old.reddit.com/r/unixporn',
@@ -122,7 +113,7 @@ let CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Other',
+      category: 'Reddit',
       name: 'r/HWS',
       key: 'h',
       url: 'https://old.reddit.com/r/hardwareswap',
@@ -174,7 +165,7 @@ let CONFIG = {
   /**
    * Dynamic overlay background colors when command domains are matched.
    */
-  colors: true,
+  colors: false,
 
   /**
    * Invert color theme
@@ -184,7 +175,7 @@ let CONFIG = {
   /**
    * Show keys instead of icons
    */
-  showKeys: false,
+  showKeys: true,
 
   /**
    * The delimiter between a command key and your search query. For example,
