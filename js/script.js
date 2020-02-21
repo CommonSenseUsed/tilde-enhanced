@@ -26,7 +26,7 @@ let CONFIG = {
     {
       category: 'Games',
       name: 'RLTracker',
-      key: 'a',
+      key: 'l',
       url: 'https://rocketleague.tracker.network/distribution/11',
       search: '',
       color: 'linear-gradient(135deg, #000000, #000000, #000000)',
@@ -47,7 +47,7 @@ let CONFIG = {
     {
       category: 'Tech',
       name: 'Netlify',
-      key: 'l',
+      key: 'e',
       url: 'https://netlify.com',
       search: '',
       color: 'linear-gradient(135deg, #021B79, #0575E6)',
