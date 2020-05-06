@@ -26,8 +26,18 @@ let CONFIG = {
     {
       category: 'Play',
       name: 'RLTracker',
-      key: 't',
+      key: 'l',
       url: 'https://rocketleague.tracker.network/distribution/11',
+      search: '',
+      color: 'linear-gradient(135deg, #000000, #000000, #000000)',
+      icon: 'drive',
+      quickLaunch: true,
+    },
+    {
+      category: 'Play',
+      name: 'R6Tracker',
+      key: '6',
+      url: 'https://r6.tracker.network/profile/pc/Jrua_',
       search: '',
       color: 'linear-gradient(135deg, #000000, #000000, #000000)',
       icon: 'drive',
@@ -55,7 +65,7 @@ let CONFIG = {
     {
       category: 'Watch',
       name: 'Twitch',
-      key: 'v',
+      key: 't',
       url: 'https://www.twitch.tv',
       search: '/directory/game/{}',
       color: 'linear-gradient(135deg, #6441a5, #4b367c)',
