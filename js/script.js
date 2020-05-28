@@ -15,6 +15,16 @@ let CONFIG = {
     },
     {
       category: 'Play',
+      name: 'Amazon Music',
+      key: 'a',
+      url: 'https://music.amazon.com',
+      search: '',
+      color: 'linear-gradient(135deg, #396afc, #2948ff)',
+      icon: 'mail',
+      quickLaunch: true,
+    },
+    {
+      category: 'Play',
       name: 'RLTracker',
       key: 'l',
       url: 'https://rocketleague.tracker.network/distribution/11',
