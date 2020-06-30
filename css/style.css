@@ -207,6 +207,7 @@ body.suggestions .search-suggestions {
   font-weight: 800;
   line-height: 1.5rem;
   text-align: center;
+  font-color: #ff0000
 }
 
 .command-name {
