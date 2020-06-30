@@ -395,7 +395,7 @@ class Help {
               <a href="${url}" target="${this._newTab ? '_blank' : '_self'}">
                     <style>
                       .command-key-${i} {
-                        color: ${fgcolor}; 
+                        color: #FF000; 
                         background-color:${bgcolor};
                         border: 4px solid ${fgcolor}; 
                         background-color: ${bgcolor};
