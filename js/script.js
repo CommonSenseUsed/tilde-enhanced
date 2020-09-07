@@ -15,16 +15,6 @@ let CONFIG = {
     },
     {
       category: 'Play',
-      name: 'Amazon Music',
-      key: 'a',
-      url: 'https://music.amazon.com',
-      search: '',
-      color: 'linear-gradient(135deg, #396afc, #2948ff)',
-      icon: 'mail',
-      quickLaunch: true,
-    },
-    {
-      category: 'Play',
       name: 'RLTracker',
       key: 'l',
       url: 'https://rocketleague.tracker.network/distribution/',
@@ -84,24 +74,6 @@ let CONFIG = {
     },
     {
       category: 'Read',
-      name: 'r/UnixP',
-      key: 'u',
-      url: 'https://old.reddit.com/r/unixporn',
-      search: '/search?q={}&src=typed_query',
-      icon: 'reddit',
-      quickLaunch: true,
-    },
-    {
-      category: 'Read',
-      name: 'r/HWS',
-      key: 'h',
-      url: 'https://old.reddit.com/r/hardwareswap',
-      search: '/find?ref_=nv_sr_fn&q={}',
-      icon: 'reddit',
-      quickLaunch: false,
-    },
-    {
-      category: 'Read',
       name: 'Zoho Mail',
       key: 'z',
       url: 'https://mail.zoho.com/zm/',
@@ -147,7 +119,7 @@ let CONFIG = {
    */
   defaultSuggestions: {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
+    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/startpages', 'r/r/hardwareswap'],
   },
 
   /**
