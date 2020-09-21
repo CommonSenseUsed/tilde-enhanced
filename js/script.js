@@ -27,7 +27,7 @@ let CONFIG = {
       category: 'Play',
       name: 'R6Tracker',
       key: '6',
-      url: 'https://r6.tracker.network/profile/pc/Jrua_',
+      url: 'https://r6.tracker.network/profile/pc/Jrua.',
       search: '',
       color: 'linear-gradient(135deg, #000000, #000000, #000000)',
       icon: 'drive',
