@@ -34,6 +34,16 @@ let CONFIG = {
       quickLaunch: true,
     },
     {
+      category: 'Play',
+      name: 'OP.GG',
+      key: 'o',
+      url: 'https://op.gg',
+      search: '',
+      color: 'linear-gradient(135deg, #000000, #000000, #000000)',
+      icon: 'drive',
+      quickLaunch: true,
+    },
+    {
       category: 'Watch',
       name: 'YouTube',
       key: 'y',
