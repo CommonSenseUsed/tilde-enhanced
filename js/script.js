@@ -17,7 +17,7 @@ let CONFIG = {
       category: 'Play',
       name: 'RLTracker',
       key: 'l',
-      url: 'https://rocketleague.tracker.network/distribution/',
+      url: 'https://rocketleague.tracker.network/rocket-league/profile/steam/76561198824755706/overview',
       search: '',
       color: 'linear-gradient(135deg, #000000, #000000, #000000)',
       icon: 'drive',
