@@ -1,10 +1,10 @@
 :root {
   /* colors */
   --background: #313131;
-  --foreground: #F1F1F1;
+  --foreground: #b24747;
 
   /* fonts */
-  --font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   --base-font-size: 18px;
   --font-weight-normal: 500;
   --font-weight-bold: 900;
